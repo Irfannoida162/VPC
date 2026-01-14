@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "powertool19087"
+    bucket         = "demo-buckey-github123"
     key            = "vpc/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-south-1a"
     encrypt        = true
     use_lockfile   = true 
   }
